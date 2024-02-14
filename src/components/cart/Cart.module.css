@@ -1,0 +1,119 @@
+.cartItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  width: 80%;
+}
+.mainContainer{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin-right: 15%;
+}
+
+.productImage {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.productTitle {
+  margin: 0;
+}
+
+.quantityControl {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.quantityControl button {
+  background-color: #ddd;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.quantityControl input {
+  width: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 10px;
+}
+.checkOut{
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  padding: 10px 15px;
+  border-radius: 4px;
+  backdrop-filter: blur(5px);
+  gap: 7px;
+  box-shadow: 0 0 4px black;
+  position: fixed;
+  top: 5rem ;
+  right: 2rem;
+}
+
+.headings{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cartBtn{
+  width: 100%;
+  background-color: rgb(29, 29, 185);
+  border: none;
+  outline: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.cartItems{
+  border: .4px solid white;
+  width: 85%;
+}
+.cartItems h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+  color: black;
+}
+p{
+  font-size: 9px;
+}
+.addRemoveBtn{
+  border: none;
+  outline: none;
+  color: black;
+  background-color: #ccc;
+}
+.quantity{
+  background-color: transparent;
+  color: black;
+  outline: none;
+}
+.deleteButton{
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 12px;
+  padding: 2px 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.priceSection p{
+  font-size: 15px;
+  padding: 4px 8px;
+  background-color: black;
+  color: white;
+}
+.perItem{
+  padding: 3px 6px ;
+  background-color: #fff;
+  color:  black;
+  font-size: 12px;
+}

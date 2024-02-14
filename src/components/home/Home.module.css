@@ -1,0 +1,13 @@
+
+.productGrid{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #452348;
+  padding: 20px;
+}

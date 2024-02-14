@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: #fff;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color: #616161;
+}
+.active{
+    border-bottom: 2px solid rgb(214, 108, 32);
+    padding-bottom: 4px;
+}
