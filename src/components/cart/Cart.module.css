@@ -55,6 +55,8 @@
   position: fixed;
   top: 5rem ;
   right: 2rem;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .headings{

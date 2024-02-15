@@ -1,6 +1,4 @@
-*{
-  font-size: 13px;
-}
+
 .mainCard{
   display: flex;
   flex-wrap: wrap;
@@ -31,13 +29,15 @@
 }
 
 .productName {
-  font-size: 1.2rem;
+  font-size: .7rem;
   margin-bottom: 10px;
 }
 
 .productPrice {
   font-size: 1rem;
-  color: white;
+  color: #ff6600;
+  font-weight: 900;
+  font-family: serif;
 }
 
 .addToCartButton {

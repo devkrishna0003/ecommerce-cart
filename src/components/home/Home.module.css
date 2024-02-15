@@ -8,6 +8,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #452348;
+  background-color: #f1b7f7;
   padding: 20px;
+}
+h1{
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
 }
